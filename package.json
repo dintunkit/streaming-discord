@@ -1,0 +1,30 @@
+{
+  "name": "discord-stream-bot",
+  "version": "1.0.0",
+  "description": "Bot stream phim vào Voice Channel Discord",
+  "type": "module",
+  "main": "stream_bot.js",
+  "scripts": {
+    "start": "node stream_bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@dank074/discord-video-stream": "latest",
+    "axios": "^1.15.2",
+    "discord.js": "^14.26.3",
+    "discord.js-selfbot-v13": "latest",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "ffmpeg-static": "^5.3.0",
+    "fluent-ffmpeg": "^2.1.3"
+  },
+  "allowScripts": {
+    "@lng2004/node-datachannel@0.32.0-20260202": true,
+    "node-av@5.2.4": true,
+    "sharp@0.34.5": true,
+    "zeromq@6.5.0": true,
+    "ffmpeg-static@5.3.0": true
+  }
+}
