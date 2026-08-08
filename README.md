@@ -1,4 +1,4 @@
-# 🎬 Discord PhimAPI Streamer Bot
+# 🎬 Discord Streamer Bot
 
 A Discord bot that automatically fetches movies from PhimAPI and streams them directly (Go Live) into Voice Channels with high quality and extreme smoothness using optimized FFmpeg WebRTC configurations.
 
@@ -46,4 +46,4 @@ node stream_bot.js
 This project uses Selfbot capabilities to stream WebRTC Video to Voice Channels. Using Selfbots is a violation of Discord's Terms of Service (ToS). Use at your own risk and **NEVER use your primary account token**.
 
 ---
-*Powered by @dank074/discord-video-stream and PhimAPI*
+*Powered by @dintunkit*
